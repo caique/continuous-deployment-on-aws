@@ -1,0 +1,17 @@
+### Terraform ###
+**/.terraform/*
+**/*.tfstate
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+
+### Project Files ###
+**/utilities/variables.sh
+
+### Generated Files ###
+backend.tf
